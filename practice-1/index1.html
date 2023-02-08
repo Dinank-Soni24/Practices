@@ -1,0 +1,37 @@
+<!-- Write a program to print fibonacci series. Take the number of steps from input using HTML Input and when click on Print button, using JS print the entered number of steps in the fibonacci series on HTML page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            text-align: center;
+            padding: 30px;
+            font-size: 20px;
+        }
+        #btn{
+            font-size: 20px;
+        }
+    </style>
+    <title>fibonacci series</title>
+</head>
+<body>
+    <div>
+        <h2> Fibonacci series </h2>
+    <form>
+        <label for="number">Number</label>
+        <input type="number" name="number" id="Number">
+        <br><br>
+
+        <input type="button" value="submit" onclick="Fibonacci()" id="btn"><br><br>
+
+        <label for="answer">answer is <a id="ans"></a></label>
+    </form>
+    <h2 id="time"></h2>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
